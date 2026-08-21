@@ -20,7 +20,7 @@ if ($sel_class) {
         SELECT s.full_name, s.roll_no,
                SUM(a.status='present') AS present,
                SUM(a.status='absent')  AS absent,
-               SUM(a.status='leave')   AS leave,
+               SUM(a.status='leave')   AS leave_days,
                COUNT(a.id)             AS total_days
         FROM students s
         LEFT JOIN attendance a ON a.student_id=s.id
@@ -127,7 +127,7 @@ require_once '../includes/header.php';
                     <td><strong><?= htmlspecialchars($r['full_name']) ?></strong></td>
                     <td class="text-success fw-bold"><?= $r['present'] ?></td>
                     <td class="text-danger fw-bold"><?= $r['absent'] ?></td>
-                    <td class="text-warning fw-bold"><?= $r['leave'] ?></td>
+                    <td class="text-warning fw-bold"><?= $r['leave_days'] ?></td>
                     <td><?= $r['total_days'] ?></td>
                     <td>
                         <div class="progress" style="height:20px; min-width:100px">
