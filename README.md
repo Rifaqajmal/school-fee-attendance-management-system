@@ -7,11 +7,13 @@ A comprehensive school management system built with **PHP, MySQL, and Bootstrap 
 ![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
+🎥 **[Watch the full demo on LinkedIn](https://www.linkedin.com/posts/rifaq-ajmal-4b5a513b3_webdevelopment-php-mysql-ugcPost-7496836027182030848-qKeP/)**
+
 ---
 
 ## 📖 Overview
 
-This project was originally built as a real client project for a nursery school, and has since been refactored, bug-fixed, and cleaned up as a standalone portfolio piece. It handles the day-to-day operations of a small school — from enrolling students and collecting monthly fees to tracking attendance and paying teacher salaries.
+A nursery school once mentioned they needed a management system — no formal deal, just a conversation. I decided to build the entire thing myself as a full semester project, and later went back to refactor, bug-fix, and clean it up as a standalone portfolio piece. It handles the day-to-day operations of a small school — from enrolling students and collecting monthly fees to tracking attendance and paying teacher salaries.
 
 ## ✨ Features
 
